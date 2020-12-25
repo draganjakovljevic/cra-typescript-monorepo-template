@@ -1,0 +1,10 @@
+{
+  "name": "@ui/shared",
+  "version": "0.0.1",
+  "description": "Share UI components",
+  "main": "src/index.js",
+  "private": true,
+  "peerDependencies": {
+    "react": "^16.13.1"
+  }
+}

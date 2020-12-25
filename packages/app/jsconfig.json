@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@monorepo-template/shared/*": ["../shared/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
