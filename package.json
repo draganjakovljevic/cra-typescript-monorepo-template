@@ -7,7 +7,7 @@
   "scripts": {
     "start": "yarn workspace @monorepo-template/app run start",
     "build": "yarn workspace @monorepo-template/app run build",
-    "test": "yarn workspaces run test"
+    "test": "yarn workspaces run test --watchAll"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
