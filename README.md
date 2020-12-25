@@ -6,13 +6,13 @@ Monorepo example using create-react-app and shared component library structure w
 
 ```
 .
-└── monorepo/
+└── cra-monorepo-template/
     ├── packages/
     │   ├── app/ (create-react-app)
     │   │   ├── src/
     │   │   └── package.json
     │   └── shared/ (shared component library)
-    │       └── components
+    │       └── src/
     │       └── package.json
     ├── package.json
     └── yarn.lock
