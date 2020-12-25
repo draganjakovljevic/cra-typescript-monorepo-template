@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/jest": "^26.0.19",
     "@ui/shared": "^0.0.1",
     "cra-template": "1.0.3",
     "react": "^16.13.1",
@@ -10,11 +11,15 @@
     "react-scripts": "3.4.1"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@types/testing-library__jest-dom": "^5.9.5",
+    "@types/testing-library__react": "^10.2.0",
     "customize-cra": "^1.0.0",
+    "jest": "^24.9.0",
     "jest-dom": "^4.0.0",
-    "react-app-rewired": "^2.1.6"
+    "react-app-rewired": "^2.1.6",
+    "ts-jest": "^26.4.4"
   },
   "scripts": {
     "start": "react-app-rewired start",
