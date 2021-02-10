@@ -23,7 +23,7 @@ legend:
 📦 package
 📂 directory
 📄 file
-
+```
 ### Know more
 
 Please check the [blog post explaining the details](https://blog.codecentric.de/en/2021/02/automating-package-publishing-in-javascript-projects).
