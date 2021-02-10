@@ -1,23 +1,29 @@
 # cra-monorepo-template
 
-Monorepo example using create-react-app and shared component library structure with yarn workspaces
+Monorepo setup using create-react-app and typescript.
 
 ### Directory structure
 
 ```
 .
-└── cra-monorepo-template/
-    ├── packages/
-    │   ├── app/ (create-react-app)
-    │   │   ├── src/
-    │   │   └── package.json
-    │   └── shared/ (shared component library)
-    │       └── src/
-    │       └── package.json
-    ├── package.json
-    └── yarn.lock
-```
+└── 📂 cra-monorepo-template/
+    ├── 📂 packages/
+    │   ├── 📦 app/                        → main package
+    │   │   ├── 📂 src/
+    │   │   └── 📄 package.json
+    │   └── 📦 shared/                     → shared component library
+    │       └── 📂 src/
+    │       └── 📄 package.json
+    ├── 📄 package.json
+    └── 📄 yarn.lock
+
+
+legend:
+
+📦 package
+📂 directory
+📄 file
 
 ### Know more
 
-<!-- I have written a [blog post explaining the details](https://jibin.tech/monorepo-with-create-react-app/). -->
+Please check the [blog post explaining the details](https://blog.codecentric.de/en/2021/02/automating-package-publishing-in-javascript-projects).
